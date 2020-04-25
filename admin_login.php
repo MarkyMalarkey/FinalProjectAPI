@@ -20,7 +20,7 @@
                 } else {
                     session_start();
                     $_SESSION['is_valid_admin'] = TRUE;
-                    include("admin_index.php");
+                    header("admin_index.php");
                 }
             }
         ?>
